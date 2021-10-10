@@ -1,4 +1,8 @@
 <link rel="stylesheet" href="/static/style-results.css" />
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
 <div class="topnav">
   <a class="active" href="/">Home</a>
   <a class="active" href="/search">Search</a>
@@ -25,7 +29,11 @@
           </svg>
           <div class="card__header-text">
             <h3 class="card__title">{{ row[0] }}</h3>
-            <span class="card__status">{{ row[3] }}</span>
+            <span class="card__status"
+              ><i class="material-icon">stars</i>{{ row[3] }}
+              <p></p>
+              <i class="material-icons">groups</i></span
+            >
           </div>
         </div>
         <p class="card__description">{{ row[5] }}</p>
