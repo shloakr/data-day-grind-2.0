@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getmy</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="showcase">
+      <div class="video-container">
+        <video src="/static/video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="content">
+        <h1>getmy</h1>
+        <h3>Get you next course.</h3>
+        <a href="/search" class="btn">Explore</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>About</h1>
+      <p>
+        Getmy.courses is a course aggregator that sources the best courses for
+        you.
+      </p>
+
+      <h3>
+        Check out the source <i class="material-icons">code</i
+        ><a href="#">code.</a>
+      </h3>
+
+      <h1>Devs</h1>
+      <p>Meet the star Devs of this project.</p>
+      <div class="profile">
+        <div
+          style="
+            background-image: url('ImageLocation');
+            background-size: cover;
+            height: 480px;
+            padding-top: 80px;
+          "
+        >
+          <img src="/static/devs/kev.png" style="height: 150px" />
+          <h3>@Kevskillz#7073</h3>
+        </div>
+        <div
+          style="
+            background-image: url('ImageLocation');
+            background-size: cover;
+            height: 480px;
+            padding-top: 80px;
+          "
+        >
+          <img src="/static/devs/shloakh.png" style="height: 150px" />
+          <h3>@The-bored-guy10#2510</h3>
+        </div>
+        <div
+          style="
+            background-image: url('ImageLocation');
+            background-size: cover;
+            height: 480px;
+            padding-top: 80px;
+          "
+        >
+          <img src="/static/devs/bhavik.png" style="height: 150px" />
+          <h3>@MRCluless#3477</h3>
+        </div>
+        <div
+          style="
+            background-image: url('ImageLocation');
+            background-size: cover;
+            height: 480px;
+            padding-top: 80px;
+          "
+        >
+          <img src="/static/devs/near.png" style="height: 150px" />
+          <h3>@near#3867</h3>
+        </div>
+      </div>
+      <h3>Check out our <a href="/data">data</a></h3>
+      <div class="chatbot">
+        <h3>Meet our chatbot Alex and get you career questions answered!</h3>
+        <div class="chatbotleftbtn">
+          <h3 class="btn" id="chatbot">
+            <i class="material-icons">chat_bubble</i>Alex!
+          </h3>
+        </div>
+      </div>
+    </section>
+    <script src="/static/winbox.bundle.js"></script>
+    <script>
+      const chatbot = document.querySelector("#chatbot");
+      const chatbotDiv = document.querySelector("#chatbotDiv");
+      chatbot.addEventListener("click", () => {
+        const winb = new WinBox("A!ex", {
+          url: "https://console.dialogflow.com/api-client/demo/embedded/5ddc465b-efa4-43ee-b361-b4c4cfd1e616",
+          width: 450,
+          height: 450,
+          top: 50,
+          left: 50,
+          right: 50,
+          bottom: 50,
+        });
+      });
+    </script>
+  </body>
+</html>
