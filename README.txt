@@ -1,4 +1,4 @@
-### data-day-grind-2.0
+# data-day-grind-2.0
 ## Inspiration
 We are a team of students who regularly access courses from ed-tech websites. However, we are always confused while choosing a course, and we end up opening hundreds of tabs from different ed-tech companies to select 1 course. That's when we realized we could build a course aggregator!
 
