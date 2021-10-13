@@ -1,4 +1,13 @@
 # data-day-grind-2.0
+
+
+## Images:
+
+![gallery-3](https://user-images.githubusercontent.com/70055735/137084447-4c3c0072-8278-475f-82d2-5a548a68c86a.jpg)
+![gallery-2](https://user-images.githubusercontent.com/70055735/137084450-4c26fb35-151d-48a3-b406-c7c7f977b5a9.jpg)
+![gallery](https://user-images.githubusercontent.com/70055735/137084453-fc451468-fc05-4eda-9d14-6fe862aa633b.jpg)
+
+
 ## Inspiration
 We are a team of students who regularly access courses from ed-tech websites. However, we are always confused while choosing a course, and we end up opening hundreds of tabs from different ed-tech companies to select 1 course. That's when we realized we could build a course aggregator!
 
@@ -24,14 +33,6 @@ We plan to add live scrapping so that the courses are displayed live rather than
 <li> Shloak </li>
 <li> Bhavik </li>
 </ul>  
-
-## Images:
-
-![gallery-3](https://user-images.githubusercontent.com/70055735/137084447-4c3c0072-8278-475f-82d2-5a548a68c86a.jpg)
-![gallery-2](https://user-images.githubusercontent.com/70055735/137084450-4c26fb35-151d-48a3-b406-c7c7f977b5a9.jpg)
-![gallery](https://user-images.githubusercontent.com/70055735/137084453-fc451468-fc05-4eda-9d14-6fe862aa633b.jpg)
-
-
 
 
 
