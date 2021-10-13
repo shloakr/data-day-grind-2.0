@@ -25,7 +25,7 @@ We plan to add live scrapping so that the courses are displayed live rather than
 <li> Bhavik </li>
 </ul>  
 
-Images:
+## Images:
 
 ![gallery-3](https://user-images.githubusercontent.com/70055735/137084447-4c3c0072-8278-475f-82d2-5a548a68c86a.jpg)
 ![gallery-2](https://user-images.githubusercontent.com/70055735/137084450-4c26fb35-151d-48a3-b406-c7c7f977b5a9.jpg)
